@@ -1,0 +1,17 @@
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\bin\Debug\AutoMsg.exe.config
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\bin\Debug\AutoMsg.exe
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\bin\Debug\AutoMsg.pdb
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\bin\Debug\Aspose.Cells.dll
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\obj\Debug\AutoMsg.csproj.CoreCompileInputs.cache
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\obj\Debug\AutoMsg.csproj.CopyComplete
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\obj\Debug\AutoMsg.exe
+C:\Users\17190\source\repos\AutoMsg\AutoMsg\obj\Debug\AutoMsg.pdb
+D:\GitHub_Archive\AutoMsg1\AutoMsg\bin\Debug\AutoMsg.exe.config
+D:\GitHub_Archive\AutoMsg1\AutoMsg\bin\Debug\AutoMsg.exe
+D:\GitHub_Archive\AutoMsg1\AutoMsg\bin\Debug\AutoMsg.pdb
+D:\GitHub_Archive\AutoMsg1\AutoMsg\bin\Debug\Aspose.Cells.dll
+D:\GitHub_Archive\AutoMsg1\AutoMsg\obj\Debug\AutoMsg.csprojAssemblyReference.cache
+D:\GitHub_Archive\AutoMsg1\AutoMsg\obj\Debug\AutoMsg.csproj.CoreCompileInputs.cache
+D:\GitHub_Archive\AutoMsg1\AutoMsg\obj\Debug\AutoMsg.csproj.CopyComplete
+D:\GitHub_Archive\AutoMsg1\AutoMsg\obj\Debug\AutoMsg.exe
+D:\GitHub_Archive\AutoMsg1\AutoMsg\obj\Debug\AutoMsg.pdb
