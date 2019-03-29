@@ -41,8 +41,7 @@ namespace AutoMsg
             DateTime start = DateTime.Parse(ConfigurationManager.AppSettings["STARTTIME"]??"00:00");//获取服务时间区间
             DateTime end = DateTime.Parse(ConfigurationManager.AppSettings["ENDTIME"]??"00:00");//获取服务时间区间
             DateTime now = DateTime.Parse(DateTime.Now.ToString("HH:mm"));//获取服务时间区间
-            string fileName = ConfigurationManager.AppSettings["FILENAME"]??"messages.xls";
-            //log("服务时间段:" + start + "--" + end + "  间隔时间:" + intervalTime + "Minutes");
+            string fileName = ConfigurationManager.AppSettings["FILENAME"]?? "Rx1/messages.xls";
 
             timer.Change((Convert.ToInt32(intervalTime) * 60 * 1000), 0);//自动根据配置文件更新定时器时间
             if (start < now && now < end)
@@ -51,7 +50,6 @@ namespace AutoMsg
             if(stream == null)
                 {
                     log("无法获取FTP服务器文件，请检查配置信息是否正确以及文件是否存在");
-                    this.SendMsg(null);//当报错时一直循环请求文件，直到成功获取到文件流
                     return;
                 }
             Stream streamout = new MemoryStream();
