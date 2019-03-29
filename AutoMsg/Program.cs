@@ -35,7 +35,7 @@ namespace AutoMsg
 
         public void SendMsg(object o)
         {
-            
+            Console.WriteLine($"{DateTime.Now},短信自动发送服务正在运行中...");
             ConfigurationManager.RefreshSection("appSettings");
             string intervalTime = ConfigurationManager.AppSettings["INTERVALTIME"]??"1";
             DateTime start = DateTime.Parse(ConfigurationManager.AppSettings["STARTTIME"]??"00:00");//获取服务时间区间
@@ -78,23 +78,21 @@ namespace AutoMsg
                     if (j == 1)
                     {
                             tempContent = array[i, j];
-                            Console.WriteLine(array[i, j]);
-                            Console.WriteLine("以上是内容********************************");
+
                     }
                     else
                     {
                             tempMobilPhone = array[i, j];
-                            Console.WriteLine(array[i, j]);
-                            Console.WriteLine("以上是号码********************************");
+
                     }
                 }
                     string result = CMCC(tempMobilPhone, tempContent);
                     if (result != "false")
                     {
-                        log("短信已发出" + result);
+                        log(tempMobilPhone+": "+tempContent + " 短信已发出;" + result);
                     }
                 }
-                Console.WriteLine($"{DateTime.Now},短信自动发送服务正在运行中...");
+                Console.WriteLine($"{DateTime.Now},短信发送成功！");
             }
             else
             {
